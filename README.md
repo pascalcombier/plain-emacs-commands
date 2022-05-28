@@ -1,8 +1,9 @@
 # plain-emacs-commands
-This is a convenient way for GNU Emacs to switch between different *compilation*
-targets. This make it very handy to switch between projects. It basically add a
-`Commands` menu and a user interface to add, configure and remove commands. A
-command can be a shell command or a compilation target.
+This is a convenient way for [GNU Emacs](https://www.gnu.org/software/emacs/) to
+switch between different *compilation* targets. This make it very handy to
+switch between projects. It basically add a `Commands` menu and a user interface
+to add, configure and remove commands. A command can be a shell command or a
+compilation target.
 
 A few screenshots would do a better job than a written explanation:
 
