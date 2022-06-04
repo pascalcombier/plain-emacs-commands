@@ -13,7 +13,7 @@ A few screenshots would do a better job than a written explanation:
 
 - `INS` will `INSERT` a new command
 - `DEL` will `DELETE` the selected command
-- `Command` can be compilation-mode` which will call the `compile` function
+- `Command` can be `compilation-mode` which will call the `compile` function
 - `Command` can be a shell-script which simply run a script
 
 ![screenshot](docs/images/03-configuration.png)
