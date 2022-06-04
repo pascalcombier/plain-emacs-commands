@@ -1,6 +1,6 @@
 # plain-emacs-commands
 This is a convenient way for [GNU Emacs](https://www.gnu.org/software/emacs/) to
-switch between different *compilation* targets. This make it very handy to
+switch between different \*compilation\* targets. This make it very handy to
 switch between projects. It basically add a `Commands` menu and a user interface
 to add, configure and remove commands. A command can be a shell command or a
 compilation target.
@@ -11,7 +11,10 @@ A few screenshots would do a better job than a written explanation:
 
 ![screenshot](docs/images/02-empty-window.png)
 
-`INS` will `INSERT` a new command. `DEL` will `DELETE` the selected command.
+- `INS` will `INSERT` a new command
+- `DEL` will `DELETE` the selected command
+- `Command` can be compilation-mode` which will call the `compile` function
+- `Command` can be a shell-script which simply run a script
 
 ![screenshot](docs/images/03-configuration.png)
 
@@ -26,11 +29,11 @@ A few screenshots would do a better job than a written explanation:
 # Emacs Lisp code
 
 I am not very experimented with Emacs Lisp language, so there isn't any proper
-major or minor mode. But the code can be easily copy/pasted into `init.el` or
-`.emacs`.
+major or minor mode. But the code can be easily copy and pasted into `init.el`
+or `.emacs`.
 
 These few lines of code have been a great time-saver for me and I don't
-understand why something similar is not part of Emacs default configuration.
+understand why something similar is not part of GNU Emacs default configuration.
 
 Notes:
 - The user interface is built using the fantastic `customize`
